@@ -1,1 +1,18 @@
-<p>education works!</p>
+<h1>Education</h1>
+<mat-stepper orientation="vertical">
+    <mat-step label="2017 - 2023" state="education">
+        <h2>Hochschule Karlsruhe (HKA)</h2>
+    </mat-step>
+    <mat-step label="2008 - 2016" state="education">
+        <h2>Meranier-Gymnasium Lichtenfels</h2>
+    </mat-step>
+    <mat-step label="" state="education">
+        <h2>Adam-Riese Grundschule</h2>
+    </mat-step>
+
+    <!-- Icon overrides. -->
+    <ng-template matStepperIcon="education">
+        <mat-icon>school</mat-icon>
+      </ng-template>
+  
+</mat-stepper>
