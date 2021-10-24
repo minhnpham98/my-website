@@ -11,6 +11,8 @@ import { CareerComponent } from './about-me/career/career.component';
 import { EducationComponent } from './about-me/education/education.component';
 import { VolunteeringComponent } from './about-me/volunteering/volunteering.component';
 import { SkillsComponent } from './about-me/skills/skills.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import { SkillsComponent } from './about-me/skills/skills.component';
     CareerComponent,
     EducationComponent,
     VolunteeringComponent,
-    SkillsComponent
+    SkillsComponent,
+    ProjectsComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
