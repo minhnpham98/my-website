@@ -7,13 +7,21 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { CareerComponent } from './about-me/career/career.component';
+import { EducationComponent } from './about-me/education/education.component';
+import { VolunteeringComponent } from './about-me/volunteering/volunteering.component';
+import { SkillsComponent } from './about-me/skills/skills.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutMeComponent,
-    HomeComponent
+    HomeComponent,
+    CareerComponent,
+    EducationComponent,
+    VolunteeringComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
