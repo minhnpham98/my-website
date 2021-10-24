@@ -1,1 +1,51 @@
-<p>volunteering works!</p>
+<h1>Volunteering</h1>
+
+<mat-tab-group>
+    <mat-tab label="H-KA">
+        <mat-stepper orientation="vertical">
+            <mat-step label="2017 - 2023" state="volunteer">
+                <h2>Mitglied im Fakultätsrat</h2>
+            </mat-step>
+            <mat-step label="2008 - 2016" state="volunteer">
+                <h2>Finanzbeauftragter</h2>
+            </mat-step>
+            <mat-step label="" state="volunteer">
+                <h2>Mentor for Freshman</h2>
+            </mat-step>
+            <mat-step label="" state="volunteer">
+                <h2>Tutorin</h2>
+            </mat-step>
+            <mat-step label="" state="volunteer">
+                <h2>Mitglied der Fachschaft</h2>
+            </mat-step>
+        
+            <!-- Icon overrides. -->
+            <ng-template matStepperIcon="volunteer">
+                <mat-icon>volunteer_activism</mat-icon>
+              </ng-template>
+          
+        </mat-stepper>
+    </mat-tab>
+    <mat-tab label="Meranier-Gymnasium Lichtenfels">
+        <mat-stepper orientation="vertical">
+            <mat-step label="2017 - 2023" state="volunteer">
+                <h2>Konflikthelferin</h2>
+            </mat-step>
+            <mat-step label="2008 - 2016" state="volunteer">
+                <h2>Tutorin</h2>
+            </mat-step>
+            <mat-step label="" state="volunteer">
+                <h2>Freiwilliges Soziales Schuljahr</h2>
+            </mat-step>
+            <mat-step label="" state="volunteer">
+                <h2>Mitglied der Schülermitverantwortung ("SMV")</h2>
+            </mat-step>
+        
+            <!-- Icon overrides. -->
+            <ng-template matStepperIcon="volunteer">
+                <mat-icon>volunteer_activism</mat-icon>
+              </ng-template>
+          
+        </mat-stepper>
+    </mat-tab>
+</mat-tab-group>
