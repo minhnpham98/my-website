@@ -1,13 +1,21 @@
 <mat-toolbar>
-  <button>
+  <button mat-button>
     <a routerLink="/home">Home</a>
   </button>
-  <button>
-    <a routerLink="/about-me">About Me</a>
+  <button mat-button [matMenuTriggerFor]="belowMenu">
+    <div>
+      <a routerLink="/about-me">About Me</a>
+      <mat-icon>arrow_drop_down</mat-icon>
+    </div>
+    <mat-menu #belowMenu="matMenu" yPostion="below">
+      <button mat-button>Career</button>
+      <button mat-button>Education</button>
+      <button mat-button>Volunteering</button>
+      <button mat-button>Skills</button>
+    </mat-menu>
   </button>
-  <button>Skills</button>
-  <button>Project</button>
-  <button>Contact</button>
+  <button mat-button>Projects</button>
+  <button mat-button>Contact</button>
 </mat-toolbar>
 
 
