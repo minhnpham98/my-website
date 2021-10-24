@@ -2,19 +2,17 @@
   <button mat-button>
     <a routerLink="/home">Home</a>
   </button>
-  <button mat-button [matMenuTriggerFor]="belowMenu">
-      <a routerLink="/about-me">About Me</a>
+  <button mat-button [matMenuTriggerFor]="belowMenu" routerLink="/about-me">About Me
       <mat-icon>arrow_drop_down</mat-icon>
       <mat-menu #belowMenu="matMenu" yPostion="below">
-        <button mat-button>Career</button>
-        <button mat-button>Education</button>
-        <button mat-button>Volunteering</button>
-        <button mat-button>Skills</button>
+        <button mat-button routerLink="/career">Career</button>
+        <button mat-button routerLink="/education">Education</button>
+        <button mat-button routerLink="/volunteering">Volunteering</button>
+        <button mat-button routerLink="/skills">Skills</button>
       </mat-menu>
   </button>
   <button mat-button>Projects</button>
   <button mat-button>Contact</button>
 </mat-toolbar>
-
 
 <router-outlet></router-outlet>
