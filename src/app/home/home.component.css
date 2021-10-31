@@ -1,7 +1,19 @@
+.name {
+  color: #5197FF;
+}
+
 img {
     max-width: 100%;
     height: auto;
   }
+
+.github-logo {
+  max-height: 70%;
+}
+
+.linkedin-logo {
+  max-height: 70%;
+}
 
 .spacer {
     -webkit-box-flex: 1;
