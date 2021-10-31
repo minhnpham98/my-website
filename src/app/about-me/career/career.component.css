@@ -1,3 +1,7 @@
+.title {
+    color: #9AAABD
+}
+
 ::ng-deep .mat-vertical-stepper-content 
 {
     visibility: visible !important;
