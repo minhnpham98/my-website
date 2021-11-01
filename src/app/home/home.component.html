@@ -1,21 +1,24 @@
-<div class="container" fxLayout="row" fxLayout.xs="column" fxLayoutWrap fxLayoutGap="0.5%" fxLayoutAlign="center">
-  <div fxFlex="20%">
-    <h1>
-      <p>Hi,</p>
-      <p>I'm Minh Ngoc Pham</p>
-      <p>Nice to meet you!</p>
-      <p>Aspiring Front End Developer</p>
-    </h1>
-    <button mat-flat-button color="primary">About Me</button>
-  </div>
-  <div fxFlex="60%">
-    <img mat-card-image class="img" src="/assets/img/Profilbild.png">
-  </div>
+<div>
+  <mat-grid-list cols="2">
+    <mat-grid-tile>
+      <div>
+        <h1 class="text">
+          <p>Hi, <br>I'm Minh Ngoc Pham</p>
+          <p>Nice to meet you!</p>
+          <p>Aspiring Front End Developer</p>
+        </h1>
+        <button mat-flat-button class="button" color="primary">About Me</button>
+      </div>
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <img mat-card-image class="img" src="/assets/img/Profilbild.png">
+    </mat-grid-tile>
+  </mat-grid-list>
+  <footer>
+    <mat-grid-list class="footer" cols="1" rowHeight="150px">
+      <mat-grid-tile>
+
+      </mat-grid-tile>
+    </mat-grid-list>
+  </footer>
 </div>
-<mat-toolbar color="primary">
-  <span class='spacer'></span>
-    <img class="linkedin-logo" src="/assets/img/LI-Logo.png">
-    <img src="/assets/img/GitHub-Mark-Light-64px.png">
-    <img class="github-logo" src="/assets/img/GitHub_Logo_White.png">
-  <span class='spacer'></span>
-</mat-toolbar>

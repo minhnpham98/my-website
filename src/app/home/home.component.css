@@ -1,11 +1,22 @@
+.text {
+  font-size: 50px;
+}
+
 .name {
   color: #5197FF;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
+.img {
+    position: relative;
+    max-width: 60%;
   }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #9BA8BC;
+}
 
 .github-logo {
   max-height: 70%;
@@ -13,10 +24,4 @@ img {
 
 .linkedin-logo {
   max-height: 70%;
-}
-
-.spacer {
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
 }
