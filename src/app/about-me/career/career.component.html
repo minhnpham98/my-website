@@ -4,28 +4,52 @@
 <div class="container" fxLayoutAlign="right">
     <mat-stepper orientation="vertical">
         <mat-step label="March 2020 - July 2020" state="work">
-            <h2>Application Project</h2>
-            <p>Application Project in cooperation with the University of Applied Sciences Karlsruhe.</p>
-            <p>My work consisted of creating wireframes and developing the conceptual ideas.</p>
+            <mat-card>
+                <mat-card-title>Application Project</mat-card-title>
+                <mat-card-subtitle>VKSI | Temporary</mat-card-subtitle>
+                <mat-card-content>Application Project in cooperation with the University of Applied Sciences Karlsruhe. <br>My work consisted of creating wireframes and developing the conceptual ideas.
+            </mat-card-content>
+            </mat-card>
         </mat-step>
         <mat-step label="July 2019 - September 2019" state="work">
-            <h2>Vacation Work at Daimler</h2>
+            <mat-card>
+                <mat-card-title>Vacation Work at Daimler</mat-card-title>
+                <mat-card-subtitle>Daimler | Temporary</mat-card-subtitle>
+            </mat-card>
         </mat-step>
         <mat-step label="July 2018 - September 2018" state="work">
-            <h2>Vacation Work at Daimler</h2>
+            <mat-card>
+                <mat-card-title>Vacation Work at Daimler</mat-card-title>
+                <mat-card-subtitle>Daimler | Temporary</mat-card-subtitle>
+            </mat-card>
         </mat-step>
         <mat-step label="October 2016 - February 2017" state="work">
-            <h2>Intern in the field of market research</h2>
-            <p>As an intern, I worked on many projects, market analyzes and market studies.</p>
+            <mat-card>
+                <mat-card-title>Intern in the field of market research</mat-card-title>
+                <mat-card-subtitle>research tools | Internship</mat-card-subtitle>
+                <mat-card-content>As an intern, I worked on many projects, market analyzes and market studies.</mat-card-content>
+            </mat-card>
         </mat-step>
         <mat-step label="January 2014 - January 2015" state="work">
-            <h2>Temporary Job at E-Center Proschek</h2>
-            <p>As a temporary worker at Edeka, I primarily worked at the cash register.</p>
-            <p>If necessary, I helped with the storage of the goods and the shelf maintenance.</p>
+            <mat-card>
+                <mat-card-title>Temporary Job at E-Center Proschek</mat-card-title>
+                <mat-card-subtitle>EDEKA | Part Time</mat-card-subtitle>
+                <mat-card-content>As a temporary worker at Edeka, I primarily worked at the cash register.<br>If necessary, I helped with the storage of the goods and the shelf maintenance.</mat-card-content>
+            </mat-card>
         </mat-step>
 
         <!-- Icon overrides. -->
         <ng-template matStepperIcon="work">
+            <mat-icon>work</mat-icon>
+        </ng-template>
+        
+        <!-- change default 'edit' icon -->
+        <ng-template matStepperIcon="edit">
+            <mat-icon>work</mat-icon>
+        </ng-template>
+
+        <!-- change default 'done' icon -->
+        <ng-template matStepperIcon="done">
             <mat-icon>work</mat-icon>
         </ng-template>
 

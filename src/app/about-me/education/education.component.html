@@ -4,17 +4,33 @@
 <div class="container" fxLayoutAlign="right">
     <mat-stepper orientation="vertical">
         <mat-step label="2017 - 2023" state="education">
-            <h2>Hochschule Karlsruhe (HKA)</h2>
+            <mat-card>
+                <mat-card-title>Hochschule Karlsruhe (HKA)</mat-card-title>
+            </mat-card>
         </mat-step>
         <mat-step label="2008 - 2016" state="education">
-            <h2>Meranier-Gymnasium Lichtenfels</h2>
+            <mat-card>
+                <mat-card-title>Meranier-Gymnasium Lichtenfels</mat-card-title>
+            </mat-card>
         </mat-step>
         <mat-step label="2004 - 2008" state="education">
-            <h2>Adam-Riese Grundschule</h2>
+            <mat-card>
+                <mat-card-title>Adam-Riese Grundschule</mat-card-title>
+            </mat-card>
         </mat-step>
 
         <!-- Icon overrides. -->
         <ng-template matStepperIcon="education">
+            <mat-icon>school</mat-icon>
+        </ng-template>
+
+        <!-- change default 'edit' icon -->
+        <ng-template matStepperIcon="edit">
+            <mat-icon>school</mat-icon>
+        </ng-template>
+
+        <!-- change default 'done' icon -->
+        <ng-template matStepperIcon="done">
             <mat-icon>school</mat-icon>
         </ng-template>
 
