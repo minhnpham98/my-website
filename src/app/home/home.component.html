@@ -3,11 +3,16 @@
     <mat-grid-tile>
       <div>
         <h1 class="text">
-          <p>Hi, <br>I'm Minh Ngoc Pham</p>
+          <p>Hi, <br>
+            <span>I'm </span> 
+            <span class="name">Minh Ngoc Pham</span>
+          </p>
           <p>Nice to meet you!</p>
-          <p>Aspiring Front End Developer</p>
+          <p class="subtext">Aspiring Frontend Developer</p>
         </h1>
-        <button mat-button class="button" color="primary">About Me ></button>
+        <button mat-button class="button" color="primary">About Me
+          <mat-icon>navigate_next</mat-icon>
+        </button>
       </div>
     </mat-grid-tile>
     <mat-grid-tile>
@@ -17,7 +22,9 @@
   <footer>
     <mat-grid-list class="footer" cols="1" rowHeight="100px">
       <mat-grid-tile>
-
+        <img class="linkedin-logo" src="/assets/img/LI-Logo.png">
+        <img class="github-logo" src="/assets/img/GitHub-Mark-Light-64px.png">
+        <img class="github-logo" src="assets/img/GitHub_Logo_White.png">
       </mat-grid-tile>
     </mat-grid-list>
   </footer>

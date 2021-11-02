@@ -1,14 +1,25 @@
 .text {
-  font-size: 50px;
+  font-size: 500%;
+  font-weight: 300;
+  letter-spacing: 2px;
+  line-height: 1.2;
+  margin: 20px 0 150px 20px;
 }
 
 .name {
-  color: #5197FF;
+  font-weight: 400;
+  color: #9BA8BC;
+}
+
+.subtext {
+  color: #9BA8BC;
+  font-size: 40%;
 }
 
 .img {
-    position: relative;
-    max-width: 60%;
+    position: absolute;
+    bottom: 100px;
+    max-width: 80%;
   }
 
 .footer {
