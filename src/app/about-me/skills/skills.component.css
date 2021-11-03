@@ -1,0 +1,20 @@
+.title {
+    margin-top: 5rem;
+    color: #9AAABD
+}
+
+::ng-deep .mat-progress-bar-fill::after {
+    background-color: #9AAABD;
+}
+
+::ng-deep .mat-progress-bar-buffer {
+    background: #F2F6FB;
+}
+
+::ng-deep .mat-progress-bar {
+    border-radius: 2px;
+}
+
+::ng-deep .mat-progress-spinner circle {
+    stroke: #9AAABD;
+}
