@@ -3,6 +3,10 @@
     color: #9AAABD
 }
 
+mat-divider {
+    margin: 50px;
+}
+
 ::ng-deep .mat-progress-bar-fill::after {
     background-color: #9AAABD;
 }
