@@ -6,7 +6,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { CareerComponent } from './about-me/career/career.component';
 import { EducationComponent } from './about-me/education/education.component';
-import { SkillsComponent } from './about-me/skills/skills.component';
+import { InterestsComponent } from './about-me/interests/interests.component';
 import { VolunteeringComponent } from './about-me/volunteering/volunteering.component';
 import { AngularMaterialModule } from './angular-material.module';
 import { AppRoutingModule } from './app-routing.module';
@@ -14,6 +14,7 @@ import { AppComponent } from './app.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { SkillsComponent } from './skills/skills.component';
 
 
 @NgModule({
@@ -24,9 +25,10 @@ import { ProjectsComponent } from './projects/projects.component';
     CareerComponent,
     EducationComponent,
     VolunteeringComponent,
-    SkillsComponent,
+    InterestsComponent,
     ProjectsComponent,
-    ContactComponent
+    ContactComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
