@@ -1,16 +1,26 @@
 .title {
     margin-top: 5rem;
-    margin-left: 10rem;
     color: #9AAABD
-}
-
-.container {
-    margin-top: 1rem;
-    margin-left: 10rem;
 }
 
 ::ng-deep .mat-vertical-stepper-content 
 {
     visibility: visible !important;
     height: 100% !important;
+}
+
+::ng-deep .mat-step-icon-selected {
+    background-color: #9AAABD !important;
+}
+
+::ng-deep .mat-step-icon-state-done {
+    background-color: #9AAABD !important;
+}
+
+::ng-deep .mat-step-icon-state-edit {
+    background-color: #9AAABD !important;
+}
+
+mat-card {
+    background-color: #F2F6FB;
 }
